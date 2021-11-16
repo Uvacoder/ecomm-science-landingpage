@@ -1,0 +1,18 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+      font-family: "materialdesignicons";
+      font-weight: 100;
+      src:    url("./assets/fonts/materialdesignicons-webfont.ttf") format("ttf"),
+              url("./assets/fonts/materialdesignicons-webfont.woff2") format("woff2");
+  }
+  @font-face {
+      font-family: "roboto";
+      font-weight: 200;
+      src:    url("./assets/fonts/Roboto-Regular.ttf") format("ttf"),
+  }
+}
